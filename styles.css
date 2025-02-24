@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("./Norse-Bold.otf");
+  }
+
+
+
+body{
+    display: flex;
+    margin: 0px;
+}
+
+.left{
+    background-image: url("./images/splash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 35vw;
+}
+
+.logo{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px;
+}
+
+.logo-icon{
+    width: 100px;
+    flex-shrink: 1;
+}
+
+.logo-text{
+    color: white;
+    font-family:myFirstFont ;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+
+
+
+
